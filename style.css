@@ -1,0 +1,103 @@
+body{
+    margin:0;
+    font-family: arial;
+    background-color:#ccc;
+}
+
+.principal{
+    background-image: url(./imagens/bg-3.jpg);
+    height: 500px;
+    background-size: cover;
+    background-position: right center;
+    padding: 1px;
+}
+.conteudo-banner{
+    margin-top:80px auto 0;
+    width: 80%;
+    text-align: center;
+    color:white;
+}
+.conteudo-banner h1{
+        font-size: 50px;
+        text-shadow:2px 2px 2px black ;
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 0;
+}
+
+.conteudo-banner p {
+    background-color: rgba(0,0,0,0.7);
+    font-size: 18px;
+    display: inline-block;
+    padding: 15px;
+    border-bottom: 3px solid;
+    
+}
+
+.principal nav ul{
+    margin: 20px 80px 0 0;
+    text-align: right;
+}
+
+.principal nav li{
+    display: inline-block;
+    list-style-type: none;
+    border: 1px solid white;
+    margin-left: 18px;
+}
+
+.principal nav a{
+    background-color: rgba(0,0,0,0.3);
+    padding: 15px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+
+.principal nav a:hover{
+    background-color: rgba(0,0,0,0.5);
+}
+
+main{
+    width: 90%;
+    margin: auto;
+    max-width: 860px;
+}
+
+
+
+article{
+    background-color: white;
+    padding: 16px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+}
+
+article h2 {
+    border-bottom: 2px solid #ccc;
+    background-color: #eee;
+    padding: 10px;
+    margin-top: 0;
+}
+
+.btn {
+    background-color: #ccc;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.rodape{
+
+    color: white;
+    background-color: rgb(148, 146, 141);
+    text-align: center;
+    padding: 30px;
+    text-shadow: 2px 2px 2px black;
+    letter-spacing: 2px;
+}
